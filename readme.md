@@ -20,7 +20,7 @@ The prepocessed pattern data of Dataset Vehicle and Sensor is placed in ./data.
 First, construct the multi-level aggregation plan by running
 
 ```
-python CASEM_traffic.py 
+python CASEM.py 
 ```
 
 Then, evaluate the performances of PatternInsight on Vehicle dataset by running
@@ -29,4 +29,8 @@ Then, evaluate the performances of PatternInsight on Vehicle dataset by running
 python online_detection_traffic.py 
 ```
 
-The similar process can be applied to the Sensor dataset.
+The similar process can be applied to the Sensor dataset by running
+
+```
+python online_detection_pollution.py 
+```

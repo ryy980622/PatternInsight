@@ -15,15 +15,42 @@ inter-cluster “residual” relations among patterns.
 The prepocessed sequential data of Dataset Vehicle and Sensor can be downloaded from [here](https://drive.google.com/drive/folders/1kdqxAH30vOAQlq2-3J3JEU2QObVxKn5r?usp=sharing).
 
 The prepocessed pattern data of Dataset Vehicle and Sensor is placed in ./data.
-## Running
+## Baselines
+To construct the tree using RW baseline, please run
 
-First, construct the multi-level aggregation plan by running
+```
+python RW.py 
+```
+
+and 
+
+```
+python RW_tree.py 
+```
+
+To construct the tree using SPASS baseline, please run
+
+```
+python SPASS.py 
+```
+
+## CASEM
+
+To construct the tree using the proposed CASEM algorithm, please run
 
 ```
 python CASEM.py 
 ```
 
-Then, evaluate the performances of PatternInsight on Vehicle dataset by running
+To further implement the CASEM+DCE algorithm, please run
+
+```
+python CASEM+DCE.py 
+```
+
+## Evaluation
+
+For all the methods, evaluate the performances on Vehicle dataset by running
 
 ```
 python online_detection_traffic.py 

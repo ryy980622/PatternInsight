@@ -12,9 +12,9 @@ algorithm to properly determine intra-cluster patterns, together with a lightwei
 inter-cluster “residual” relations among patterns.
 ## Dataset
 
-The prepocessed sequential data of Dataset Vehicle and Sensor can be downloaded from [here](https://drive.google.com/drive/folders/1kdqxAH30vOAQlq2-3J3JEU2QObVxKn5r?usp=sharing).
+The prepocessed streaming data of Dataset Vehicle and Sensor can be downloaded from [here](https://drive.google.com/drive/folders/1kdqxAH30vOAQlq2-3J3JEU2QObVxKn5r?usp=sharing).
 
-The prepocessed pattern data of Dataset Vehicle and Sensor is placed in ./data.
+The prepocessed complex patterns of Dataset Vehicle and Sensor are placed in ./data. 
 ## Baselines
 To construct the tree using RW baseline, please run
 
